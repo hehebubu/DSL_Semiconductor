@@ -1,0 +1,10 @@
+PATTERN READ_0608 {
+    MODULE_ID : #0608
+    COMMAND1 : #00
+    COMMAND2 : #34
+    TYPE : STANDARD
+    ADD_TYPE : STANDARD
+    USE_ZDD : false
+    HAS_RB_WAIT : true
+    REGISTER_TYPE : D1_D2
+}

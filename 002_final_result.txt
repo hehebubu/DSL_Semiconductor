@@ -1,0 +1,8 @@
+MODULE BEGIN
+	START #0608
+	JSR G_LF001_CMDI                CE0  TP<#00       TS2
+	JSR G_LF001_ADD5_D1_D2          CE0               TS1
+	JSR G_LF001_CMDI_100NS           CE0  TP<#34       TS2
+	JNC1 G_LF000_RBWAT              CE0              TS1
+	STPS  TS1
+MODULE END
